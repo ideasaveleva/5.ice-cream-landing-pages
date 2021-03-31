@@ -14,12 +14,15 @@
 	.container {
 		padding: 0 30px;
 	}
+	.article-cubic {
+		display: none;
+	}
 }
 
 @media (max-width: 575px) {
 }
 
-/* 
+/*
 @media (max-width: 1199px) {
 
 }
