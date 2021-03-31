@@ -124,6 +124,7 @@ body {
 	font-size: 44px;
 	color: #150101;
 	margin: 0;
+	padding-top: 20px;
 }
 .article-text-two {
 	font-size: 16px;
@@ -131,4 +132,11 @@ body {
 	opacity: 0.6;
 	margin-top: 15px;
 	margin-bottom: 35px;
+}
+.article-image-ellipse-two {
+	z-index: 1;
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	width: 55%;
 }
