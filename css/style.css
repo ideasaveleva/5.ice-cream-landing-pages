@@ -1,6 +1,8 @@
 /* * {
 	border: 1px solid #f0f;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
 body {
 	background-color: rgba(242, 206, 218, 0.3);
 	color: #0f0101;
@@ -95,4 +97,24 @@ body {
 .text-word {
 	color: #d23166;
 	opacity: 0.9;
+}
+.text-center {
+	text-align: center;
+	background-color: #fff;
+}
+.aside-title {
+	font-family: "Hind Madurai", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	white-space: nowrap;
+}
+.aside-text {
+	font-family: "Hind Madurai", sans-serif;
+	font-size: 14px;
+	color: #000000;
+	opacity: 0.6;
+	margin: 0 0 20px;
 }
