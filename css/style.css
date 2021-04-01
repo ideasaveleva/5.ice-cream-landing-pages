@@ -10,6 +10,9 @@ body {
 	font-family: "Roboto", "sans-serif";
 	margin: 0;
 }
+a {
+	text-decoration: none;
+}
 .container {
 	border: 1px solid #000;
 }
@@ -34,8 +37,7 @@ body {
 	opacity: 0.6;
 	font-size: 14px;
 }
-.header-home {
-	text-decoration: none;
+.header-link:hover {
 	font-size: 15px;
 	color: #d23166;
 	font-weight: bold;
@@ -100,6 +102,8 @@ body {
 }
 .text-center {
 	text-align: center;
+}
+.backdrop {
 	background-color: #fff;
 }
 .aside-title {
@@ -139,4 +143,62 @@ body {
 	top: 75%;
 	left: 25%;
 	width: 55%;
+}
+.section-item {
+	display: flex;
+	justify-content: center;
+	margin: 65px 0 50px;
+	padding: 0;
+}
+.section-list {
+	list-style: none;
+}
+.section-list:not(:first-child) {
+	padding-left: 40px;
+}
+.section-link {
+	font-weight: 500;
+	font-size: 18px;
+	color: #000000;
+	opacity: 0.6;
+	text-transform: uppercase;
+}
+.section-link:hover {
+	border-bottom: 3px solid #d64374;
+	opacity: 1;
+}
+.section-image {
+	width: 100%;
+}
+.section-title {
+	font-family: "Hind Madurai", sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+}
+.section-text {
+	font-size: 16px;
+	color: #000000;
+	opacity: 0.7;
+	margin-top: 10px;
+	margin-bottom: 28px;
+}
+.section-price {
+	font-family: "Hind Madurai", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: #000000;
+}
+.section-price-was {
+	text-decoration-line: line-through;
+	font-family: "Hind Madurai", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+	opacity: 0.7;
+}
+.section-distance {
+	margin-top: 15px;
+}
+.text-level {
+	text-align: right;
 }
