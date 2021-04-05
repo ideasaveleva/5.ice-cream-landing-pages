@@ -22,9 +22,19 @@
 		flex-direction: column;
 		padding: 0;
 	}
+	.application-link-image {
+		margin: 0;
+	}
 }
 
 @media (max-width: 575px) {
+	.button {
+		padding: 10px 20px;
+	}
+	.application-list {
+		font-size: 16px;
+		padding-bottom: 0;
+	}
 }
 
 /*
