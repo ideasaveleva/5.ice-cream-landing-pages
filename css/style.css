@@ -13,8 +13,9 @@ body {
 a {
 	text-decoration: none;
 }
-.container {
-	border: 1px solid #000;
+footer {
+	background: #0a0808;
+	color: #ffffff;
 }
 .menu-bar {
 	display: none;
@@ -55,6 +56,7 @@ a {
 	cursor: pointer;
 	display: inline-flex;
 	white-space: nowrap;
+	align-items: center;
 }
 .article-cubic {
 	position: relative;
@@ -254,6 +256,50 @@ a {
 	font-size: 14px;
 	color: #0f0000;
 	opacity: 0.6;
+}
+.footer-text {
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 0.01em;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.footer-action {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	display: inline-block;
+}
+.footer-social {
+	margin-top: 15px;
+}
+.footer-social-link {
+	margin-right: 10px;
+}
+.footer-item {
+	list-style: none;
+	padding: 0;
+}
+.footer-link {
+	color: #fff;
+	opacity: 0.7;
+	font-size: 12px;
+	line-height: 14px;
+	margin-bottom: 10px;
+	display: inline-block;
+	white-space: nowrap;
+}
+.footer-link:hover {
+	opacity: 1;
+	font-size: 14px;
+}
+.news-form {
+	padding: 20px 30px;
+	background: none;
+	border-radius: 5px;
+	opacity: 0.6;
+	border: 2px solid #d64374;
+	width: 100%;
 }
 
 /* Слайдер */
