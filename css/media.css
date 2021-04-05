@@ -1,0 +1,36 @@
+@media (max-width: 991px) {
+	.menu-bar {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	.container {
+		padding: 0 30px;
+	}
+	.article-cubic {
+		display: none;
+	}
+	.section-item {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	.application-link-image {
+		margin: 0;
+	}
+	.footer-info {
+		margin-top: 30px;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 575px) {
+	.button {
+		padding: 10px 20px;
+	}
+	.application-list {
+		font-size: 16px;
+		padding-bottom: 0;
+	}
+}
