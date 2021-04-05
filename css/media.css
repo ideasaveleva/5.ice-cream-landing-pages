@@ -4,7 +4,22 @@
 	}
 	nav {
 		display: none;
+		position: absolute;
+		background: #eee;
 	}
+	.menu-bar-icon {
+		display: inline-block;
+	}
+	.header-item {
+		display: block;
+	}
+	..header-list {
+		margin-bottom: 30px;
+	}
+	.header-list:not(:first-child) {
+		padding: 0;
+	}
+
 	.container {
 		padding: 0 30px;
 	}

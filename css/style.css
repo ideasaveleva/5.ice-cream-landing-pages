@@ -17,6 +17,9 @@ footer {
 	background: #0a0808;
 	color: #ffffff;
 }
+nav {
+	position: relative;
+}
 .menu-bar {
 	display: none;
 }
@@ -28,6 +31,7 @@ footer {
 	list-style: none;
 	padding: 0;
 	width: 100%;
+	display: flex;
 }
 .header-list:not(:first-child) {
 	padding-left: 40px;
