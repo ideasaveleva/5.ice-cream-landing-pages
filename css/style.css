@@ -242,10 +242,10 @@ nav {
 }
 .application-list {
 	font-size: 22px;
-	padding-bottom: 20px;
 	line-height: 26px;
 	color: #000000;
 	white-space: nowrap;
+	margin-bottom: 15px;
 }
 .application-link {
 	display: inline-block;
@@ -257,9 +257,10 @@ nav {
 	border-radius: 5px;
 	border: none;
 	padding-left: 30px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #0f0000;
 	opacity: 0.6;
+	margin-right: 10px;
 }
 .footer-text {
 	font-size: 12px;
