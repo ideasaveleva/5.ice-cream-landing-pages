@@ -433,3 +433,49 @@ nav {
 .slider__item.slick-center {
 	opacity: 1;
 }
+
+
+.menu-block {
+    list-style: none;
+    background: #4b1f41;
+    padding: 20px 0 0 0;
+    position: fixed;
+    top: -150%;
+    height: 100%;
+		transition: all 1s ease-in 50ms;
+		backface-visibility: visible;
+}
+.menu-block.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    margin: 0;
+		transform: translate(0px, -20px) rotate(360deg);
+}
+.menu-block li a {
+    color: #fff;
+    padding: 15px 60px 15px 25px;
+    font-size: 30px;
+}
+.menu-block li a:hover {
+	color: #000;
+	font-weight: 500;
+}
+.menu-block > li {
+	margin-bottom: 10px;
+}
+.menu-block li:hover {
+    background-color: #e09292;
+    cursor: pointer;
+}
+.menu-close {
+    display: block;
+}
+.icon-burger-awesome {
+    font-size: 40px;
+}
+.menu-bar {
+    display: none;
+    color: #333333;
+}

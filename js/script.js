@@ -13,13 +13,19 @@ $(document).ready(function () {
 
 //Подключаю действие при нажатии на бургер, должно открываться меню
 const menuBar = document.querySelector('.menu-bar');
+const menuBlock = document.querySelector('.menu-block')
+const menuClose = document.querySelector('.menu-close')
 
-$(function () {
-	$('.menuBar').on('click', function () {
-		$('nav').slideToggle(200, function () {
-			if ($(this).css('display') === 'none') {
-				$(this).removeAttr('style');
-			}
-		});
-	});
-});
+
+
+const ANIMATION_SPEED = 2000
+const addDeleteActive = function () {
+	menuBlock.classList.toggle('active')
+}
+menuBar.addEventListener('click', addDeleteActive)
+menuClose.addEventListener('click', addDeleteActive)
+
+// setTimeout(deleteActive, 5000)
+setTimeout(() => {
+	addDeleteActive
+}, ANIMATION_SPEED)
