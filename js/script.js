@@ -28,6 +28,6 @@ menuClose.addEventListener('click', addDeleteActive)
 const bodyButtons = document.getElementById('buttons')
 
 bodyButtons.addEventListener('click', event => {
-	if (event.target.tagName == 'A' || event.target.tagName == 'BUTTON' || event.target.tagName !== 'IMG')
+	if (event.target.tagName === 'A' || event.target.tagName === 'BUTTON')
 		alert(`Вы нажали на кнопку: ${event.target.innerHTML}`)
 })
