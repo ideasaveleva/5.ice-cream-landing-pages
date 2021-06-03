@@ -24,10 +24,10 @@ const addDeleteActive = function () {
 menuBar.addEventListener('click', addDeleteActive)
 menuClose.addEventListener('click', addDeleteActive)
 
-//Подключчаю события при клике на ссылку или на кнопку
+//Подключаю события при клике на ссылку или на кнопку
 const bodyButtons = document.getElementById('buttons')
 
 bodyButtons.addEventListener('click', event => {
-	if (event.target.tagName == 'A' || event.target.tagName == 'BUTTON')
+	if (event.target.tagName == 'A' || event.target.tagName == 'BUTTON' || event.target.tagName !== 'IMG')
 		alert(`Вы нажали на кнопку: ${event.target.innerHTML}`)
 })
